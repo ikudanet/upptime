@@ -8,7 +8,7 @@ sites:
     icon: https://a.ikuda.net/favicon.png
   - name: Cloudflare R2 @ a.ikuda.net
     url: https://a.ikuda.net
-    icon: https://a.ikuda.net/favicon.png
+    icon: https://a.ikuda.net/misc/images/upptime/cloudflare-icon.png
     expectedStatusCodes:
       - 404
   - name: ikuda.net archive
