@@ -1,36 +1,49 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: ikudanet # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: ikuda.net
+    url: https://ikuda.net
+    icon: https://a.ikuda.net/favicon.png
+  - name: Cloudflare R2 @ assets.ikuda.net
+    url: https://a.ikuda.net
+    icon: https://a.ikuda.net/favicon.png
+    expectedStatusCodes:
+      - 404
+  - name: ikuda.net archive
+    url: https://archive.ikuda.net
+    icon: https://a.ikuda.net/favicon.png
+    expectedStatusCodes:
+      - 404
+  - name: Upptime
+    url: https://upptime.ikuda.net
+    icon: https://a.ikuda.net/misc/images/upptime/icon.svg
+
+assignees:
+  - aceikuda
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: upptime.ikuda.net
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://a.ikuda.net/upptime/icon.svg
+  name: ikuda.net Upptime
+  introTitle: "**Upptime** is an open-source uptime monitor & status page, powered by GitHub Actions."
+  introMessage: 
   navbar:
-    - title: Status
+    - title: status
       href: /
-    - title: GitHub
+    - title: ikuda.net
+      href: https://ikuda.net/
+    - title: github
       href: https://github.com/$OWNER/$REPO
+  metaTags:
+    - name: "robots"
+      content: "noindex, nofollow"
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+
+# https://upptime.js.org/docs/configuration
