@@ -29,8 +29,8 @@ status-website:
   cname: upptime.ikuda.net
   # baseUrl: /your-repo-name
   logoUrl: https://a.ikuda.net/misc/images/upptime/icon.svg
-  name: ikuda.net Upptime
-  introTitle: "**Upptime** is an open-source uptime monitor & status page, powered by GitHub Actions."
+  name: ikuda.net status
+  introTitle: 
   introMessage: 
   navbar:
     - title: status
