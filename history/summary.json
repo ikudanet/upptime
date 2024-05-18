@@ -40,7 +40,7 @@
     "url": "https://archive.ikuda.net",
     "icon": "https://a.ikuda.net/favicon.png",
     "slug": "ikuda-net-archive",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 187,
     "timeMonth": 193,
     "timeYear": 193,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-05-18": 0
+    }
   },
   {
     "name": "Upptime",
