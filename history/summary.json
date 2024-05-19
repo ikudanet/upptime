@@ -37,24 +37,21 @@
   },
   {
     "name": "ikuda.net archive",
-    "url": "https://archive.ikuda.net",
+    "url": "https://ossuarium.ikuda.net",
     "icon": "https://a.ikuda.net/favicon.png",
     "slug": "ikuda-net-archive",
-    "status": "down",
-    "uptime": "97.48%",
-    "uptimeDay": "65.20%",
-    "uptimeWeek": "95.03%",
-    "uptimeMonth": "97.48%",
-    "uptimeYear": "97.48%",
-    "time": 193,
-    "timeDay": 0,
-    "timeWeek": 194,
-    "timeMonth": 193,
-    "timeYear": 193,
-    "dailyMinutesDown": {
-      "2024-05-19": 79,
-      "2024-05-18": 422
-    }
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 192,
+    "timeDay": 185,
+    "timeWeek": 192,
+    "timeMonth": 192,
+    "timeYear": 192,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Upptime",
