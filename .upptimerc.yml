@@ -12,7 +12,7 @@ sites:
     expectedStatusCodes:
       - 404
   - name: ikuda.net archive
-    url: https://archive.ikuda.net
+    url: https://ossuarium.ikuda.net
     icon: https://a.ikuda.net/favicon.png
     expectedStatusCodes:
       - 404
